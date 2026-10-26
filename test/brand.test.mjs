@@ -45,3 +45,8 @@ test('the scaffold is not misrepresented as a released application',()=>{
  assert.match(product.stage,/no application implemented/);
  for(const file of previews){const html=read(file);assert.match(html,/brand documentation preview/);assert.match(html,/An application has not been implemented/);assert.match(html,/No application or installer is available/);assert.match(html,/No user data or configuration is migrated/)}
 });
+
+// Browser screenshots are native JPEG bytes; keep truthful file names and PR content types.
+test('review screenshots use the correct native image format',()=>{
+ for(const theme of ['light','dark']){const bytes=fs.readFileSync(path.join(root,'docs/screenshots/pilot-'+theme+'.jpg'));assert.equal(bytes.subarray(0,3).toString('hex'),'ffd8ff');assert.ok(bytes.length>10000)}
+});

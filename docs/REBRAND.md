@@ -34,7 +34,7 @@ Commands and observed results are recorded below after execution. This repositor
 ### Observed results
 
 - `node tools/build-preview.mjs`: passed; generated both static documentation previews. This builds documentation only.
-- `node --test test/*.test.mjs`: all 6 tests passed (asset SHA-256 integrity, exact product/credit strings, original/font licence preservation, local/offline dependency references, light/dark text contrast and focus declarations, honest scaffold status).
+- `node --test test/*.test.mjs`: all 7 tests passed (asset SHA-256 integrity, exact product/credit strings, original/font licence preservation, local/offline dependency references, light/dark text contrast and focus declarations, honest scaffold status).
 - Browser at default 1280px width: both themes rendered; local images loaded; computed body font is Cohn Sans. The appearance link navigated from light to dark. Keyboard Tab focused the skip link, whose computed outline width was 3px.
 - Local HTTP requests loaded bundled CSS, fonts and images without external runtime dependencies.
 - Original licence digest checked unchanged.
@@ -43,8 +43,8 @@ Commands and observed results are recorded below after execution. This repositor
 
 ### Light documentation preview
 
-![Light brand documentation preview](screenshots/pilot-light.png)
+![Light brand documentation preview](screenshots/pilot-light.jpg)
 
 ### Dark documentation preview
 
-![Dark brand documentation preview](screenshots/pilot-dark.png)
+![Dark brand documentation preview](screenshots/pilot-dark.jpg)
