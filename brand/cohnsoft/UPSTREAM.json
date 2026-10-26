@@ -1,0 +1,222 @@
+{
+  "repository": "https://github.com/danecohn/cohnsoftassets",
+  "commit": "752e894f90f1e58e62ae466352cb03c8bfd7d703",
+  "files": [
+    {
+      "path": "BRAND.md",
+      "sha256": "aeb1b668b7db3debd84af7b04652c292dd02447331ac8fff9030072f62d3cced"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "css/cohnsans.css",
+      "sha256": "5e0f1e4f664e84be0d531e495ecd086af37f8403c759272fabbcdc38278dffa1"
+    },
+    {
+      "path": "css/goldengate.css",
+      "sha256": "0e4e0318767bd9567d733cd88e4446ff27a74268e2b637b1083cd0456d82fabb"
+    },
+    {
+      "path": "fonts/CohnSans-Bold.ttf",
+      "sha256": "7e8b456bf34ea01d78cfc26d641fe638fd1786a1ba25819c8e3cb6efe2b0007f"
+    },
+    {
+      "path": "fonts/CohnSans-Bold.woff2",
+      "sha256": "e75127d5bbd04bec2d7771f20b026c3785e0a061cc9055f73fe70f825278e0ea"
+    },
+    {
+      "path": "fonts/CohnSans-Regular.ttf",
+      "sha256": "35a2bbe16f52fd36c74ee8a33a48df4d1ff29423d6a79d0542d1536336d1653d"
+    },
+    {
+      "path": "fonts/CohnSans-Regular.woff2",
+      "sha256": "45bae0e6d29885e8b8fa94b1757bd9faff983dccf1dda1526eb9806d4b57f889"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "sha256": "c985424e4b443932ae3d7d306f39a3f20fcdbdc747c743fbf9bf28d8aeea134c"
+    },
+    {
+      "path": "icons/apple-touch-icon.png",
+      "sha256": "7679b9ebff30d0478c37a2a0497b70b4d2218a9c12a2fe071a3cc175f9ebdeac"
+    },
+    {
+      "path": "icons/cohnsoft.icns",
+      "sha256": "9a11f6be7fb786b7fb32c2ec06b537b2699afd2e3837bb49d90cb0c87f9b01c7"
+    },
+    {
+      "path": "icons/cohnsoft.ico",
+      "sha256": "c78162b2f0a2782354bde7c3bc044162f12b8fc9739f8f27121a11917148907c"
+    },
+    {
+      "path": "icons/favicon-32.png",
+      "sha256": "f4bd0b5bdd91aad3ebbecb7fdf86a7046232dda08cb9cba7318a33622c9bfb4d"
+    },
+    {
+      "path": "icons/favicon.ico",
+      "sha256": "c78162b2f0a2782354bde7c3bc044162f12b8fc9739f8f27121a11917148907c"
+    },
+    {
+      "path": "icons/icon-256.png",
+      "sha256": "49823a9ac36e8164f25a8d74aa5d30c7d4535b8201aa23afe47fc9b6fcd95431"
+    },
+    {
+      "path": "icons/icon-512.png",
+      "sha256": "32c67bdd8b26190577f63ec7ef002cf2e8eedc226f1530e6bfcfc716f2b2daf7"
+    },
+    {
+      "path": "logos/app-icon/cohnsoft-app-1024.png",
+      "sha256": "20df79cf2443bcb73912bc84fcd3befaa7726bcaac0c43c07c6a02dee00c3b33"
+    },
+    {
+      "path": "logos/app-icon/cohnsoft-app-128.png",
+      "sha256": "ba9af93570414d5eb4214a0484e6086e7cb481a769a7a258f12fbeea19e95ffd"
+    },
+    {
+      "path": "logos/app-icon/cohnsoft-app-16.png",
+      "sha256": "30e01732d43e5b5a229a6f0e7918066696db19d04798e42d02fcffd88fcf8c8b"
+    },
+    {
+      "path": "logos/app-icon/cohnsoft-app-256.png",
+      "sha256": "4130a327078c974dcd686adf81fb601cfa045b5fff69979694ca1fceb4283af4"
+    },
+    {
+      "path": "logos/app-icon/cohnsoft-app-32.png",
+      "sha256": "40abec39eab3db8bfa64a89dea5d366ef145b03083c37696d953daf740430ea4"
+    },
+    {
+      "path": "logos/app-icon/cohnsoft-app-512.png",
+      "sha256": "f38d2e7ed357f7b812bc68cd3882d0a0b6d0ed6006cad7bb62fff7729f856350"
+    },
+    {
+      "path": "logos/app-icon/cohnsoft-app-64.png",
+      "sha256": "64a69fc9edd509d30efab7ce2fd56dcc5b4310b2808125b5dafec36cc0df52a9"
+    },
+    {
+      "path": "logos/app-icon/cohnsoft-app.svg",
+      "sha256": "ccbf3cf24e065dd5ccf9df274db400b5a1d4a89a9af4b235420939a74df1c5c6"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-lockup-dark.png",
+      "sha256": "9614fcd992649a6ea9442da38e2c4a80b5c88b311011b84ef8da1a301d3ee2d0"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-lockup-dark.svg",
+      "sha256": "a050d7f27a7f4d86849dcae575143268eb987b622f74ff946a3ae411ed89d787"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-lockup-dark@2x.png",
+      "sha256": "57e0f4b7848d26f6dcb2699fc2456a3a17fbdb1f6fe0143fe4321849697286fa"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-lockup-dark@4x.png",
+      "sha256": "4c5feee66435babca977aac82fde9217339b10c1c2bb5305992d9f7c761f7663"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-lockup-stacked.png",
+      "sha256": "f022385f238d103b4085870c11ab1813cc933a5820447b6dfd118f1202eb3527"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-lockup-stacked@2x.png",
+      "sha256": "eda656361a1e584799742211187087a5b160b9074058d71d7186813517f07d58"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-lockup.png",
+      "sha256": "2b9361b31e05c9a14478b902a1d5d192860aafba76bbfc6169f9dea39ad623c8"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-lockup.svg",
+      "sha256": "3ac65b760d47d263080ed9a780b3e2135b4232acf1854962b2268ef86b6d9b3a"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-lockup@2x.png",
+      "sha256": "c71d275fad92199216692626820cbe10cbd7e3746005500fc17f3360e8bafeab"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-lockup@4x.png",
+      "sha256": "d66b0f5aa2cc277eed6ca99094ce77cc35d96f01ca4d05ba9c5d2c2a096a7da4"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-wordmark-black.png",
+      "sha256": "db1cde644c14ac164131e452125e4cc46d13699f52a744e3a150fb39521717ee"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-wordmark-black.svg",
+      "sha256": "f1fcf17177462740152e379f8a49119fd4b3ca25c6adbdb255b2fe75764bd6f5"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-wordmark-dark.png",
+      "sha256": "f6a20777797232a6b67a68769207b8579052be1941080d0998b237a781746a38"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-wordmark-dark.svg",
+      "sha256": "0e3a1bd1a7ac5b98d3867882742b22b76f932d3f71c232e021211ac85af2f202"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-wordmark-white.png",
+      "sha256": "fec0fef588a07fe9190ba36b30f18751e97659ce2d270bacd0748721dde447cb"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-wordmark-white.svg",
+      "sha256": "1b718e496320956b4b19422645b06795a3e56f07f5eb405323a820f706a2b424"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-wordmark.png",
+      "sha256": "5ed1515e1b546d38202d17928728acf9a18b3cb218f8682d060e7d16e1df25db"
+    },
+    {
+      "path": "logos/lockup/cohnsoft-wordmark.svg",
+      "sha256": "033e10985359fd9d4489236ea387c308eee9b5fbd04f798ca8ddb331feea758c"
+    },
+    {
+      "path": "logos/mark/cohnsoft-mark-1024.png",
+      "sha256": "60e3c1a3d3b44c1262b9375839d9a27257b09022ab365b011074564483deb198"
+    },
+    {
+      "path": "logos/mark/cohnsoft-mark-128.png",
+      "sha256": "cc9e0740a4867bf41a5c7207163cb3b5baf74d53238e9cfb02474c417e084888"
+    },
+    {
+      "path": "logos/mark/cohnsoft-mark-16.png",
+      "sha256": "53ffc6dc87ba8b78e0a308abbb96b7f6c3c1c08d7c9843c3f63b654949cee7d4"
+    },
+    {
+      "path": "logos/mark/cohnsoft-mark-256.png",
+      "sha256": "49823a9ac36e8164f25a8d74aa5d30c7d4535b8201aa23afe47fc9b6fcd95431"
+    },
+    {
+      "path": "logos/mark/cohnsoft-mark-32.png",
+      "sha256": "f4bd0b5bdd91aad3ebbecb7fdf86a7046232dda08cb9cba7318a33622c9bfb4d"
+    },
+    {
+      "path": "logos/mark/cohnsoft-mark-48.png",
+      "sha256": "b5997f1c8740b76c60de0e8d0d708e0cf820785320ac3857d1d0b856db7a196b"
+    },
+    {
+      "path": "logos/mark/cohnsoft-mark-512.png",
+      "sha256": "32c67bdd8b26190577f63ec7ef002cf2e8eedc226f1530e6bfcfc716f2b2daf7"
+    },
+    {
+      "path": "logos/mark/cohnsoft-mark-64.png",
+      "sha256": "f3b1575026699034d9e2a40a09346cc607cef6c7c4c264c40689cd1576cb0a64"
+    },
+    {
+      "path": "logos/mark/cohnsoft-mark.svg",
+      "sha256": "8d479ee63e4c51a2531c66c390d835fbe75836c6abe65ec64a718e2d0c1e3c66"
+    },
+    {
+      "path": "logos/social/cohnsoft-social-1200x630.png",
+      "sha256": "24a9fa0d200dac26447eb9e78111a713572de5784a4fb5f09f4ce2fd7a3849aa"
+    },
+    {
+      "path": "logos/social/cohnsoft-social-2400x1260.png",
+      "sha256": "e95fc02f2d6b11d15551fb8398df49e340b3fda8b5a7c0cd9cbd82458d9c4f1e"
+    },
+    {
+      "path": "tokens.json",
+      "sha256": "2fc6c44e8642adb1064a627894ce82eb08a1f61d6e10cdddad5fab59a3e5306f"
+    }
+  ]
+}

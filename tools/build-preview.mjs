@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';
+const root=new URL('../',import.meta.url);
+const product=JSON.parse(await fs.readFile(new URL('brand/product.json',root),'utf8'));
+const e=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+await fs.mkdir(new URL('docs/',root),{recursive:true});
+for(const theme of ['light','dark']){
+ const other=theme==='light'?'dark':'light';
+ const html=`<!doctype html>
+<html lang="en" data-theme="${theme}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="${theme}"><title>${e(product.name)} · Brand foundation · ${theme}</title><meta name="description" content="Cohnsoft pilot identity review. Documentation preview for a repository scaffold, not an application."><link rel="icon" href="../brand/cohnsoft/icons/favicon.ico"><link rel="apple-touch-icon" href="../brand/cohnsoft/icons/apple-touch-icon.png"><link rel="stylesheet" href="../brand/cohnsoft/css/cohnsans.css"><link rel="stylesheet" href="../brand/cohnsoft/css/goldengate.css"><link rel="stylesheet" href="brand-preview.css"></head>
+<body class="cs cs-wallpaper"><a class="skip" href="#main">Skip to content</a>
+<header class="cs-toolbar cs-glass"><img class="lockup" src="../brand/cohnsoft/logos/lockup/cohnsoft-lockup${theme==='dark'?'-dark':''}@2x.png" alt="Cohnsoft" width="192" height="54"><span class="toolbar-label">Identity review</span><nav aria-label="Preview appearance"><a class="cs-btn" href="brand-preview-${other}.html">${other==='dark'?'Dark':'Light'} appearance</a></nav></header>
+<main id="main" class="review"><section class="cs-sheet hero"><div class="product-heading"><img class="product-icon" src="../brand/cohnsoft/logos/app-icon/cohnsoft-app-256.png" width="128" height="128" alt="Cohnsoft app icon"><div><p class="eyebrow">COHNSOFT · PILOT 01</p><h1>${e(product.name)}</h1><p class="credit">${e(product.credit)}</p><span class="status">Repository scaffold</span></div></div><p class="intro">A shared identity, ready for the work ahead.</p><p class="description">This is a brand documentation preview. An application has not been implemented in this repository. The proposed product name is awaiting review.</p>
+<div class="review-grid"><article class="cs-card"><p class="eyebrow">IDENTITY</p><h2>One company.<br>A consistent foundation.</h2><ul><li>Official Cohnsoft artwork, copied unchanged.</li><li>Cohn Sans, bundled for offline use.</li><li>Golden Gate surfaces and design tokens.</li><li>Source commit and asset checksums recorded.</li></ul></article><article class="cs-card"><p class="eyebrow">IMPLEMENTATION STATUS</p><h2>Clear about<br>what exists.</h2><ul><li>Documentation and brand files only.</li><li>No application or installer is available.</li><li>No user data or configuration is migrated.</li><li>Production and domains remain unchanged.</li></ul></article></div>
+<div class="cs-group review-links"><a class="cs-row" href="REBRAND.md">Read the pilot scope <span aria-hidden="true">↗</span></a><a class="cs-row" href="COHNSOFT-ROLLOUT.md">Review the repository rollout <span aria-hidden="true">↗</span></a></div>
+<footer><p>${e(product.founder)}</p><p class="source-note">Original project licence retained. Cohn Sans: SIL OFL 1.1.</p></footer></section></main></body></html>\n`;
+ await fs.writeFile(new URL('docs/brand-preview-'+theme+'.html',root),html);
+}
+console.log('Built light and dark brand documentation previews. No application or installer was built.');
